@@ -38,17 +38,19 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Numans');
-
 html,body{
-background-image: url('https://wallpapershome.com/images/pages/pic_h/16681.jpg');
-background-size: cover !important;
-background-repeat: no-repeat;
-background-position: center center;
-min-height: 190vh;
-height: 100%;
-font-family: 'Numans', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Numans', sans-serif;
+  }
+.background-signup{
+  background-image: url('https://wallpapershome.com/images/pages/pic_h/16681.jpg');
 }
 
+.background-login{
+  background-image: url('https://wallpapercave.com/wp/wp1835743.jpg');
+}
 .container{
 height: 100%;
 align-content: center;
@@ -57,14 +59,14 @@ align-content: center;
 .card{
 height: 370px;
 margin-top: 200px;
-margin-bottom: auto;
+margin-bottom: 150px;
 width: 400px;
 background-color: rgba(0,0,0,0.5) !important;
 }
 
 .cardSU{
   height: 550px;
-  margin-top: 200px;
+  margin-top: 120px;
   margin-bottom: 100px;
   width: 600px;
   background-color: rgba(0,0,0,0.5) !important;

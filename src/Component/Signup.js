@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Signup extends Component {
     render() {
         return (
-           <div>
+           <div className="background-signup">
                 <div className="d-flex justify-content-center h-100 col">
                 <div className="cardSU" >
                     <div className="card-header">

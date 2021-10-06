@@ -1,0 +1,52 @@
+body{
+    margin: 10%; 
+    color: rgb(241, 241, 241);
+    font-size: 32px;        
+    background-image: url('https://www.pullman-danang.com/wp-content/uploads/sites/86/2019/05/DJI_0004.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+}
+h1{
+    text-align: center; 
+    width: 100%; 
+    color: rgba(0, 0, 255, 0.452); 
+    background-color: rgba(255, 255, 255, 0.432);
+}
+.flex-container {  
+  display: flex;
+  flex-wrap: nowrap;  
+}
+.flex-container > div {
+  background-color: #f1f1f1dc;
+  width: 30%;
+  margin: 10px;
+  text-align: center;  
+  line-height: 400%;  
+  border-radius: 10px;
+}
+.text_setup{
+  display: flex;
+  flex-wrap: nowrap; 
+}
+.text_setup > div{
+  width: 50%;   
+  padding-right: 1rem; 
+  margin: 30px;
+}
+.box_setup{
+  display: flex;
+  flex-wrap: nowrap; 
+}
+.box_setup > div{
+  width: 50%;
+  display: inline-block; 
+  border-radius: 10px;  
+}    
+input[type=text] {
+  float: right;
+  padding: 6px;
+  border-radius: 10px;
+  font-size: 17px;
+  width:97%;
+}

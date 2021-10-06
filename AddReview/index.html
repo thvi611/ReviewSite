@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Work Abroad Application Form </title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="testbox">
+      <form action="/">
+        <div class="item">
+          <label for="banner">Banner<span>*</span></label>
+        </div>
+        <div class="banner">
+          <button class="plus-button plus-button--large"></button>
+        </div>
+        <div class="item">
+          <label for="title">Title<span>*</span></label>
+          <input id="title" type="text" name="title" placeholder="Title" required/>
+        </div>
+        <div class="item">
+          <label for="content">Content<span>*</span></label>
+          <textarea rows="10"></textarea>
+        </div>
+        <div class="item">
+          <label for="ddate">Departure date</label>
+          <input id="ddate" type="date" name="ddate" required/>
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+        <div class="item">
+          <div class="inf-item">
+            <div>
+              <label for="total">Total number of days</label>
+              <input id="total" type="text" name="total" required/>
+            </div>
+            <div>
+              <label for="cost">Cost</label>
+              <input id="cost" type="text" name="cost" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <label for="language">Tag</label>
+          <div class="tag-item">
+              <input id="tag1" type="text" name="tag1" />
+              <input id="tag2" type="text" name="tag2" />
+              <input id="tag3" type="text" name="tag3" />
+              <input id="tag4" type="text" name="tag4" />
+          </div>
+        </div>
+        <div class="item">
+          <label for="picture">Upload Picture</label>
+          <input id="picture" type="file" multiple/>
+        </div>
+        <div class="item">
+          <label for="video">Upload Picture</label>
+          <input  id="video" type="file" multiple/>
+        </div>
+        <div class="btn-block">
+          <button type="submit" href="/">SUBMIT</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

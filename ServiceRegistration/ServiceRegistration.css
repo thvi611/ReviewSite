@@ -17,7 +17,8 @@ h1{
 .setup {
   display: inline-block;
   width: 100%;
-  padding: 6px;
+  padding: 6px;  
+  margin-top: 20px;
 }
 .flex-container {  
   display: flex;
@@ -32,18 +33,17 @@ h1{
   border-radius: 10px;
   display: inline-block;  
 }
-input[type=text] {  
+input[type=text] { 
+  float: right; 
   padding: 6px;
   border-radius: 10px;
   font-size: 17px;
   width:70%;
-  margin-top: 2rem;
-  margin-bottom: 1rem;  
 }
 button{
   display: inline-block; 
   width: 30%;
   line-height: 200%;
-  text-align: center;
+  text-align: center;  
 }
 

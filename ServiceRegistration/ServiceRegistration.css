@@ -36,12 +36,13 @@ h1{
 }
 .box_setup{
   display: flex;
-  flex-wrap: nowrap; 
+  flex-wrap: nowrap;   
 }
 .box_setup > div{
   width: 50%;
   display: inline-block; 
   border-radius: 10px;  
+  margin: 30px;
 }    
 input[type=text] {
   float: right;

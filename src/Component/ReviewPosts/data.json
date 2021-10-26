@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Zenbook Duo 14 (UX482)",
+        "description": "CHIẾC MÁY TÍNH XÁCH TAY CỦA TƯƠNG LAI",
+        "content":"ZenBook Duo 14 cho phép bạn tối ưu khả năng đa nhiệm. Đây chính là người bạn đồng hành mạnh mẽ mà thimage lịch thế hệ mới cho quá trình sáng tạo và làm việc hiệu suất trong khi di chuyển, cùng màn hình thứ hai ScreenPad™ Plus có thiết kế nghiêng hoàn toàn mới mang tính công thái học độc đáo. Được trang bị bộ vi xử lý Intel® Core™ thế hệ thứ 11 mới nhất, ZenBook Duo 14 cho phép bạn tận hưởng công nghệ của tương lai ngay hôm nay.",
+        "image":"https://mediaonlinevn.com/wp-content/uploads/2021/05/210520-Asus-ZenBook-Duo-14-UX482-01_resize.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Zenbook Pro Duo UX581",
+        "description": "Phản chiếu phong cách của riêng bạn",
+        "content":"Nâng tầm sáng tạo và hiệu suất với ASUS ZenBook Pro Duo đột phá! Được thiết kế để mang tới cho bạn lợi thế tối thượng về hiệu suất làm việc, máy tính xách tay RTX Studio Laptop mạnh mẽ được trang bị màn hình 4K ASUS ScreenPad™ Plus chiều rộng đầy đủ tương thích mượt mà với màn hình 4K UHD OLED. Tận dụng sức mạnh sáng tạo tối ưu chưa bao giờ dễ dàng hơn.",
+        "image":"https://cdn-amz.fado.vn/images/I/91fPjB8SbyL.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Zenbook Duo UX481",
+        "description": "Phản chiếu phong cách",
+        "content":"Hãy đưa sức sáng tạo và năng suất của bạn lên tầm cao mới với ASUS ZenBook Duo đột phá! Được thiết kế để đem đến cho bạn hiệu quả quy trình công việc tối tân nhất, thiết kế độc đáo của chiếc máy này có ASUS ScreenPad™ Plus trọn chiều rộng tương thích mượt mà với màn hình hiển thị chính. Tận dụng đầy đủ sức mạnh sáng tạo của bạn chưa bao giờ dễ dàng đến thế.",
+        "image":"https://cdn-amz.fado.vn/images/I/814LADIi8NL.jpg"
+    },
+    {
+        "id": 4,
+        "title": "ProArt PA148CTV",
+        "description": "Thiết Bị Hỗ Trợ Tối Ưu Cho Các Chuyên Gia Sáng Tạo Nội Dung",
+        "content":"ASUS ProArt PA148CTV là màn hình di động 14 inch FHD cảm ứng 10 điểm chạm* được thiết kế cho những người sáng tạo nội dung. PA148CTV mang lại màu sắc vượt trội nhờ có 100% sRGB và không gian màu Rec.709 100%, và đây là màn hình di động đầu tiên trên thế giới đạt chứng nhận Calman Verified với Delta E <2 đã được cân màu sẵn nhờ vậy màn hình mang đến sự khác biệt về màu sắc. Tấm nền IPS chống chói có góc nhìn rộng với ít thay đổi màu sắc, ngay cả khi nhìn từ các phía ngoài cạnh, không phải từ trung tâm.",
+        "image":"https://ben.com.vn/Content/Images/Products/184024.png"
+    }
+]

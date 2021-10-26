@@ -1,0 +1,92 @@
+.rv-post ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0px;
+  overflow: hidden;
+  background-color: rgb(228, 228, 228);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+.rv-post .col ul {
+  padding: 0px;
+}
+.rv-post .col {
+  padding: 0px;
+}
+
+.rv-post li {
+  float: left;
+  min-width: 50%;
+}
+
+.rv-post li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 0px;
+  text-decoration: none;
+}
+
+.rv-post li a:hover {
+  background-color: rgb(107, 105, 105);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #4caf50;
+  text-decoration: none;
+}
+.list-view {
+  width: 100%;
+}
+.list-view .view_item {
+  background: #fff;
+  border: 1px solid #e2efe1;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 3px 5px;
+  display: flex;
+  align-items: center;
+}
+
+.list-view .view_item:last-child {
+  margin-bottom: 0;
+}
+
+.list-view .view_item .vi_left {
+  margin-right: 25px;
+}
+.list-view .view_item .vi_left img {
+  height: auto;
+  min-height: 70px;
+  max-width: 100px;
+}
+
+.list-view .view_item .vi_right a:hover {
+  text-decoration: none;
+  color: rgb(16, 161, 47);
+}
+.list-view .view_item .vi_right a {
+  text-decoration: none;
+  color: black;
+}
+.view_item .title {
+  font-weight: 600;
+}
+.col-md-4 .right_nav {
+  border: solid #e2efe1 1px;
+}
+
+.row h5 {
+  margin-left: 10px;
+  font-weight: 600;
+  color: darkgreen;
+}
+
+.position-sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}

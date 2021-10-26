@@ -5,6 +5,7 @@ import Login from './Component/Login';
 import Footer from './Component/Footer';
 import ServiceDetail from './Component/ServiceDetail/ServiceDetail'
 import Home from './Component/TopPage/Home'
+import ReviewPost from './Component/ReviewPosts/ReviewPost'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       {/* <Signup/> */}
       {/* <Login/> */}
       {/* <ServiceDetail/> */}
-      <Home/>
+      <ReviewPost/>
       <Footer/>
     </div>
   );

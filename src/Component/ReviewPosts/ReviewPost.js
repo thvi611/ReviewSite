@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import CardLeftItem from './CardLeftItem'
+import CardRightItem from './CardRightItem'
 import './reviewPost.css'
 import demoData from "./data.json"
 import Test from './Test'
@@ -17,24 +18,18 @@ export default class ReviewPost extends Component {
             </div>
             <div className="row g-5">
                 <div className="col-md-8">
-                    <Test/>
-                    <Test/>
-                    <Test/>
-                    <Test/>
-                    <Test/>
-                    <Test/>
-                    <Test/>
-                    <Test/>
-                    <Test/>
-                    <Test/>
-                    <Test/>
-                    <Test/>
-                    <Test/>
-                    <Test/>
-                    <Test/>
-                    <Test/>
-                    <Test/>
-                    <Test/>
+                {
+                    demoData.map((value, key) => {
+                        return (
+                            <CardRightItem key={key} 
+                                image={value.image} 
+                                title={value.title} 
+                                date={value.date}
+                                content={value.content} 
+                                id={value.id}/>
+                        )
+                    })
+                }
                 </div>
                 {/* end col 8  */}
                 <div className="col-md-4">

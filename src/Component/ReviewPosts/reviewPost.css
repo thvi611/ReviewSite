@@ -90,3 +90,48 @@
     position: sticky;
     top: 20px;
 }
+
+/* stylelint-disable selector-list-comma-newline-after */
+h3{
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.card-img-left {
+  height: 100%;
+  width: 250px;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+}
+
+@media (min-width: 768px) {
+  .h-md-250 { height: 200px; }
+}
+
+h3 a:hover {
+  text-decoration: none;
+  color: rgb(16, 161, 47);
+}
+
+h3 a{
+  text-decoration: none;
+  color: black;
+  font-size: 27px;
+}
+
+.green{
+  color: green;
+}
+
+.green:hover{
+  color: darkgreen;
+}
+
+.card-body p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

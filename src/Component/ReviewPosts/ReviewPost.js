@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import CardLeftItem from './CardLeftItem'
-import CardRightItem from './CardRightItem'
+import CardRightItem from './CardRightItem.js'
+import CardLeftItem from './CardLeftItem.js'
 import './reviewPost.css'
 import demoData from "./data.json"
 import Test from './Test'
@@ -21,7 +21,7 @@ export default class ReviewPost extends Component {
                 {
                     demoData.map((value, key) => {
                         return (
-                            <CardRightItem key={key} 
+                            <CardLeftItem key={key} 
                                 image={value.image} 
                                 title={value.title} 
                                 date={value.date}
@@ -45,7 +45,7 @@ export default class ReviewPost extends Component {
                             {
                                 demoData.map((value, key) => {
                                     return (
-                                    <CardLeftItem key={key} 
+                                    <CardRightItem key={key} 
                                     image={value.image} 
                                     title={value.title} 
                                     description={value.description} 
@@ -64,7 +64,7 @@ export default class ReviewPost extends Component {
                             {
                                 demoData.map((value, key) => {
                                     return (
-                                    <CardLeftItem key={key} 
+                                    <CardRightItem key={key} 
                                     image={value.image} 
                                     title={value.title} 
                                     description={value.description} 

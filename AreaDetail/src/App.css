@@ -1,0 +1,251 @@
+#parent-with-flex-direction-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 100%;
+    background-color: rgb(112, 179, 241);
+    border-radius: 20px;
+    
+  } 
+  .child {
+    height: 2.5rem;
+    width: 10rem;
+    margin: 50px;
+    padding-top: 15px;
+    background-color: rgb(169, 169, 241);
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid;
+  }
+  #logo{ 
+    position:absolute; 
+    top:10px; 
+    left:10px; 
+    padding-top: 30px;
+    width: 80px;
+    height: 50px;
+    background-color:rgb(240, 231, 231);
+    border-style: solid;
+    text-align: center;
+    border-radius: 20px;
+  }
+  #account{
+    top: 10px;
+    right: 10px;
+    position:absolute;
+    background-color: rgb(151, 147, 148);
+    width: 100px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid;
+  }
+   /*remove link's underline and change color to black*/
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  div.part{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+    
+    
+  }
+  .partchild{
+    margin-right: 40px;
+    width: 270px;
+    height: 30px;
+    background-color: rgb(129, 129, 231);
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 105px;
+    border-style: solid;
+}
+  .placename{
+    width: 300px;
+    height:100px;
+    background-color: rgb(134, 235, 134);
+    text-align: center;
+    padding-top: 20px;
+    margin : 20px 35% 20px 4.5% ;
+    font-size: 30px;
+    border-style: solid;
+    border-radius: 20px;
+  }
+  /* Dropdown Button */
+.dropbtn {
+    background-color: rgb(129, 129, 231);
+    color: rgb(7, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 160px;
+    height: 48px;
+    text-align: center;
+    margin-right: 200px;
+    border-style: solid;
+
+
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position:relative;
+    display: inline-block;
+    height: 50px;
+    margin-top: 110px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8accf8;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 128px;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #8be98e;}
+
+  /*Area*/
+  .area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    
+    margin-top: 110px;
+  }
+  .child2{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    padding-top: 15px;
+    background-color: rgb(214, 214, 216);
+    text-align: center;
+    padding-inline: 100px;
+    border-style: solid;
+  }
+  .toparea{
+    margin-top: 150px;
+    background-color: rgb(134, 235, 134);
+    padding-left: 20px;
+    font-size: 30px;
+    width:290px;
+    margin-left: 50px;
+    border-style: solid;
+  }
+  .place{
+    background-color: blueviolet;
+    width: 100px;
+  }
+  /*caroudel*/
+  @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+.carousel-container{
+    width: auto;
+    margin: 50px auto;
+    min-height: 200px;
+    position: relative;
+}
+.carousel-container .track{
+    display: flex;
+}
+.carousel-container .carousel-inner{
+    overflow: hidden;
+}
+.carousel-container .card-container{
+    width: 205px;
+    height: 300px;
+    flex-shrink: 0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.carousel-container .card-container .card{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.nav button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #aaa;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.nav .pre{
+    left: -20px;
+}
+.nav .next{
+    right: -20px;
+}
+
+
+/* slide */
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+ 
+}
+
+
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index:1;
+}
+
+.slides .slick-prev {
+  left: 5%;
+}
+
+.slides .slick-next {
+  right: 5%;
+}
+.slides img{
+    width: 500px;
+    height: 500px;
+}
+
+/*test , xóa sau*/
+

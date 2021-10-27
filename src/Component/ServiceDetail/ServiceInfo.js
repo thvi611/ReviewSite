@@ -4,8 +4,8 @@ class ServiceInfo extends Component {
     render() {
         return (
             <div className = "info ">
-                <div className="container mt-5 border" >
-                    <div className="mt-4 p-2 bg-primary text-black rounded">
+                <div className="border" >
+                    <div className="p-2 bg-primary text-black rounded">
                         <h1 className="text-center">Golden Bridge</h1>
                     </div> 
                     <div className="mt-2 p-2 ">

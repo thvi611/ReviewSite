@@ -6,15 +6,17 @@ import Footer from './Component/Footer';
 import ServiceDetail from './Component/ServiceDetail/ServiceDetail'
 import Home from './Component/TopPage/Home'
 import ReviewPost from './Component/ReviewPosts/ReviewPost'
+import AreaDetail from './Component/AreaDetail/AreaDetail';
 
 function App() {
   return (
-    <div>
+    <div className="bgr">
       <Nav/>
       {/* <Signup/> */}
       {/* <Login/> */}
       {/* <ServiceDetail/> */}
-      <ReviewPost/>
+      {/* <ReviewPost/> */}
+      <AreaDetail/>
       <Footer/>
     </div>
   );

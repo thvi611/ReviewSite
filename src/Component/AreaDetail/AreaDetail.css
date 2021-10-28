@@ -121,5 +121,15 @@ textarea {
 .pink{
     background-color: #faf1ed;
 }
+ /*Item*/
+.card-deck .card{
+    height: 255px;
+    width: 195px;
+}
+
+.card-deck .card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
 
 

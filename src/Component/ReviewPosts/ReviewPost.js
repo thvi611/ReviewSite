@@ -6,19 +6,71 @@ import demoData from "./data.json"
 import Test from './Test'
 
 export default class ReviewPost extends Component {
+    constructor(props) {
+        super(props);
+        this.state={
+            sortByDate :true
+        }
+    }
+    onChangeSortType = () =>{
+        this.setState({
+            sortByDate: !this.state.sortByDate
+        })
+    }
+    showData = () => {
+
+        if(this.state.sortByDate)  return(
+                demoData.sort((a,b) => {
+                    let date1 = a.date.split('/').reverse().join('');
+                    let date2 = b.date.split('/').reverse().join('');
+                    return date1 < date2 ? 1 : date1 > date2 ? -1 : 0;
+                })
+                .slice(0,4)
+                .map((value, key) => {
+                    return (
+                        <CardRightItem key={key} 
+                        image={value.image} 
+                        title={value.title} 
+                        description={value.description} 
+                        id={value.id}
+                        date={value.date}
+                        rate={value.rate}/>
+                        )
+                })
+            )
+        else{
+            return (
+                demoData.sort((a,b) => b.rate - a.rate )
+                .slice(0,4)
+                .map((value, key) => {
+                    return (
+                    <CardRightItem key={key} 
+                    image={value.image} 
+                    title={value.title} 
+                    description={value.description} 
+                    id={value.id}
+                    date={value.date}
+                    rate={value.rate}/>
+                    )
+                })  
+            )
+        }
+    }
+    
     render() {
         return (
             <div className="container rv-post">
-                <div className="p-4 p-md-5 mb-4 text-white rounded bg-dark mt-5">
-                <div className="col-md-6 px-0">
-                <h1 className="display-4 fst-italic">Title of a longer featured blog post</h1>
-                <p className="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-                <p className="lead mb-0"><a href="#" className="text-white fw-bold">Continue reading...</a></p>
+                <div className="p-4 p-md-5 mb-4 text-white rounded bg-dark mt-10">
+                    <div className="col-md-8 px-1">
+                        <h1 className="">All review posts of Da Nang</h1>
+                        <p className="lead my-3">Hello word! Hello word! Hello word! Hello word! Hello word! Hello word! Hello word! Hello word! </p>
+                        <p className="lead mb-0"><a href="#" className="text-white fw-bold">Let's go!</a></p>
+                    </div>
                 </div>
-            </div>
             <div className="row g-5">
                 <div className="col-md-8">
                 {
+                    
                     demoData.map((value, key) => {
                         return (
                             <CardLeftItem key={key} 
@@ -37,21 +89,13 @@ export default class ReviewPost extends Component {
                         <div className="col ">
                             <div className="col right_nav">
                                 <ul>
-                                    <li><a className="active " href="#home">Phổ biến</a></li>
-                                    <li><a  href="#news">Mới nhất</a></li>
+                                    <li><a className={!this.state.sortByDate? "active": ""} href="#home" onClick={()=>this.onChangeSortType()}>人気</a></li>
+                                    <li><a className={this.state.sortByDate? "active": ""} href="#news" onClick={()=>this.onChangeSortType()}>最近</a></li>
                                 </ul>
                             </div>
                             <div className="row mt-3">
                             {
-                                demoData.map((value, key) => {
-                                    return (
-                                    <CardRightItem key={key} 
-                                    image={value.image} 
-                                    title={value.title} 
-                                    description={value.description} 
-                                    id={value.id}/>
-                                    )
-                                })
+                                this.showData()
                             }
                             </div>
                         </div>
@@ -62,15 +106,7 @@ export default class ReviewPost extends Component {
                             </div>
                             <div className="row mt-3">
                             {
-                                demoData.map((value, key) => {
-                                    return (
-                                    <CardRightItem key={key} 
-                                    image={value.image} 
-                                    title={value.title} 
-                                    description={value.description} 
-                                    id={value.id}/>
-                                    )
-                                })
+                                this.showData()
                             }
                             </div>
                         </div>

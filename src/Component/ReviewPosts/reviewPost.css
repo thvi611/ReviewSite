@@ -72,13 +72,27 @@
   text-decoration: none;
   color: black;
 }
+.list-view .view_item .vi_right .info {
+  display: inline ;
+}
+
+.list-view .view_item .vi_right .info p{
+  font-size: 10px;
+  margin-top:5px;
+  margin-left: 10px;
+  display: inline-flex;
+}
 .view_item .title {
   font-weight: 600;
 }
 .col-md-4 .right_nav {
   border: solid #e2efe1 1px;
 }
-
+.right_nav ul li a{
+  font-weight: 500;
+  font-size: 20px;
+  
+}
 .row h5 {
   margin-left: 10px;
   font-weight: 600;

@@ -7,11 +7,11 @@ class RmdCard extends Component {
                 <div className="card">
                     <div className="row content">
                         <div className="col-6 img-left">
-                            <a href="/#"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/ee/ca/15/adaline-hotel-suites.jpg?w=1200&h=-1&s=1" alt="img"/></a>
+                            <a href="/#"><img src={this.props.stay["images"][Math.floor(Math.random() * 4)]} alt="img"/></a>
                         </div>
                         <div className="col-6 info-right">
                             <div className="stay-name">
-                                <p>{this.props.name}</p>
+                                <p>{this.props.stay["stayName"]}</p>
                             </div>
                             <div className="stay-info">
                                 <div className="rate">
@@ -22,10 +22,10 @@ class RmdCard extends Component {
                                         <i className="fa fa-star gray-star" /> 
                                         <i className="fa fa-star gray-star" />
                                     </div>
-                                    <p>15 reviews</p> 
+                                    <p>{this.props.stay["reviewsCount"]} reviews</p> 
                                 </div>
                                 <div className="price">
-                                    <p> 5000 $</p>
+                                    <p>¥ {this.props.stay["price"]} </p>
                                 </div>
                             </div>
                             

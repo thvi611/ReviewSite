@@ -7,6 +7,7 @@ import CommentPost from './CommentPost';
 import stays from './stays.json'
 class ServiceDetail extends Component {
     render() {
+        let random = Math.floor(Math.random() * 4);
         return (
             <div className="stay">
                 <div className ="container bg-color">
@@ -14,10 +15,10 @@ class ServiceDetail extends Component {
                     <div className="row mt-10">
                         <div className="pad">
                             <div className= "col-5">
-                                <ServiceInfo stay={stays[0]}/>
+                                <ServiceInfo stay={stays[random]}/>
                             </div>
                             <div className= "col-7">
-                                <Carousel/>
+                                <Carousel images={stays[random]["images"]}/>
                             </div>
                         </div>
                     </div>
@@ -30,13 +31,13 @@ class ServiceDetail extends Component {
                         <div className="col-12">
                             <h5>Popular Nearby</h5>
                         </div>
-                        <RecommendSlide/>
+                        <RecommendSlide otherStays={stays}/>
                         <div className="col-12">
                             <hr/>
                             <h5>Similar Sponsored Properties</h5>
                             
                         </div>
-                        <RecommendSlide/>
+                        <RecommendSlide otherStays={stays}/>
                         <div className="pad-bot">
 
                         </div>
@@ -44,15 +45,20 @@ class ServiceDetail extends Component {
                     {/* row  */}
                     <div className="row mt-5 comments">
                         <div className="col-6">
-                            <div className="ratings"> <span className="product-rating">4.6</span><span>/5</span>
+                            <div className="ratings"> <span className="product-rating">{stays[random]["rating"]}</span><span>/5</span>
                                 <div className="stars"> 
-                                    <i className="fa fa-star" /> 
-                                    <i className="fa fa-star" /> 
-                                    <i className="fa fa-star" /> 
-                                    <i className="fa fa-star gray-star" />
-                                    <i className="fa fa-star gray-star" /> 
+                                {
+                                    Array(5).fill(0)
+                                    .map((_,index) =>{
+                                        return(
+                                            index < Math.floor(parseInt(stays[random]["rating"]))?
+                                            <i key={index} className="fa fa-star" />:
+                                            <i key={index} className="fa fa-star gray-star" />
+                                        )
+                                    })
+                                    }
                                 </div>
-                                <div className="rating-text"> <span>46 ratings &amp; 15 reviews</span> </div>
+                                <div className="rating-text"> <span>{stays[random]["reviewsCount"]} reviews</span> </div>
                             </div>
                         </div>
                         <div className="col-6">

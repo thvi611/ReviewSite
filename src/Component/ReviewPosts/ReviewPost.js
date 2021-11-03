@@ -63,7 +63,7 @@ export default class ReviewPost extends Component {
                     <div className="col-md-8 px-1">
                         <h1 className="">All review posts of Da Nang</h1>
                         <p className="lead my-3">Hello word! Hello word! Hello word! Hello word! Hello word! Hello word! Hello word! Hello word! </p>
-                        <p className="lead mb-0"><a href="#" className="text-white fw-bold">Let's go!</a></p>
+                        <p className="lead mb-0"><a href="/#" className="text-white fw-bold">Let's go!</a></p>
                     </div>
                 </div>
             <div className="row g-5">

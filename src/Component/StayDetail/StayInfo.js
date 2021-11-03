@@ -14,22 +14,26 @@ class ServiceInfo extends Component {
                         </div>
                         <div className="rate">
                                 <div className="stars"> 
-                                    <i className="fa fa-star" /> 
-                                    <i className="fa fa-star" /> 
-                                    <i className="fa fa-star" /> 
-                                    <i className="fa fa-star gray-star" /> 
-                                    <i className="fa fa-star gray-star" />
-                                    
+                                    {
+                                        Array(5).fill(0)
+                                        .map((_,index) =>{
+                                            return(
+                                                index < Math.floor(parseInt(this.props.stay["rating"]))?
+                                                <i key={index} className="fa fa-star" />:
+                                                <i key={index} className="fa fa-star gray-star" />
+                                            )
+                                        })
+                                    }
                                 </div>
-                                <div className="rating-text"> <p>15 reviews</p> </div>
+                                <div className="rating-text"> <p>{this.props.stay["reviewsCount"]} reviews</p> </div>
                         </div>
                         
                         <div className="time">
                             <div className="open-time">
-                                <p><i className="fa fa-check"></i> Open: <p>08:00 AM</p></p>
+                                <p><i className="fa fa-check"></i> Open: <p>{this.props.stay["open"]}</p></p>
                             </div>
                             <div className="close-time">
-                                <p><i className="fas fa-times "></i> Close:<p>16:00 PM</p></p>
+                                <p><i className="fas fa-times "></i> Close:<p>{this.props.stay["close"]}</p></p>
                             </div>
                         </div>
                         <hr/>
@@ -39,13 +43,13 @@ class ServiceInfo extends Component {
                                 <i className="fab fa-cc-mastercard" style={{fontSize: '48px', color: '#ff5860'}}></i>
                                 <i className="fab fa-cc-visa" style={{fontSize: '48px', color: '#ff5860'}}></i>
                                 <div className="price">
-                                    <p>$56000</p>
+                                    <p>¥ {this.props.stay["price"]}</p>
                                 </div>
                             </div>
                         </div>
                         <div className="about">
                             <h5>About</h5>
-                            <p>Minh House - To Hien Thanh is one kind of ecological apartment which is equipped with the modern and luxury things. Just walking a few steps, you can reach to the legendary My Khe beach. It takes you 4km to the airport, 1km to the center and 500m to the beach.Minh House - To Hien Thanh is one kind of ecological apartment which is equipped with the modern and luxury things. Just walking a few steps, you can reach to the legendary My Khe beach. It takes you 4km to the airport, 1km to the center and 500m to the beach. You can enjoy the specialties everywhere. Welcome to Minh House.</p>
+                            <p>{this.props.stay["about"]}</p>
                         </div>             
                     </div>  
                 </div>             

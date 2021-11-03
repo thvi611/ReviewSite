@@ -133,12 +133,12 @@
     align-items: center;
 }
 .stay .payment .pay-method .price p{
-    background-color: #00aa6c;
+    background-color: #e2e608;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
     margin-top: 5px;
-    color: white;
+    color: black;
     font-weight: 500;
     font-style: italic;   
     margin-left: 37px;
@@ -378,7 +378,7 @@
     color: #00aa6c;
     font-weight: 600;
     font-size: 110%;
-    min-height: 60px;
+    min-height: 80px;
 }
 .stay .card-container .card .stay-info .price {
       background-color: #00aa6c;

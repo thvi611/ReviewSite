@@ -7,29 +7,33 @@ class Carousel extends Component {
                 <div id="demo" className="carousel slide " data-ride="carousel">
                     {/* Indicators */}
                     <ul className="carousel-indicators">
-                    <li data-target="#demo" data-slide-to={0} className="active" />
-                    <li data-target="#demo" data-slide-to={1} />
-                    <li data-target="#demo" data-slide-to={2} />
-                    <li data-target="#demo" data-slide-to={3} />
-                    <li data-target="#demo" data-slide-to={4} />
+                        {
+                            Array(parseInt(this.props.images.length))
+                            .fill(0)
+                            .map((_,i) => {
+                                return i===0? 
+                                <li data-target="#demo" data-slide-to={i} className="active" />:
+                                <li data-target="#demo" data-slide-to={i} />
+                            })
+                        }
                     </ul>
                     {/* The slideshow */}
                     <div className="carousel-inner rounded">
-                    <div className="carousel-item active">
-                        <img src="https://banahills.sunworld.vn/wp-content/uploads/2020/05/image9-2.png" alt="golden-bridge1"/>
-                    </div>
-                    <div className="carousel-item">
-                        <img src="https://banahills.sunworld.vn/wp-content/uploads/2020/02/thiet-ke-an-tuong-cau-vang.png" alt="golden-bridge2"/>
-                    </div>
-                    <div className="carousel-item">
-                        <img src="https://baodanang.vn/dataimages/202004/original/images1557744_20_4__ANH_CAU_VANG.jpg" alt="golden-bridge3" />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="https://baodanang.vn/dataimages/202004/original/images1557744_20_4__ANH_CAU_VANG.jpg" alt="golden-bridge3" />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="https://baodanang.vn/dataimages/202004/original/images1557744_20_4__ANH_CAU_VANG.jpg" alt="golden-bridge3" />
-                    </div>
+                        {
+                            Array(parseInt(this.props.images.length))
+                            .fill(0)
+                            .map((_,i) => {
+                                return i===0? 
+                                (<div className="carousel-item active">
+                                    <img src={this.props.images[i]} alt={"image"+i}/>
+                                </div>):
+                                (
+                                <div className="carousel-item">
+                                    <img src={this.props.images[i]} alt={"image"+i}/>
+                                </div>
+                                )
+                            })
+                        }
                     </div>
                     {/* Left and right controls */}
                     <a className="carousel-control-prev" href="#demo" data-slide="prev">

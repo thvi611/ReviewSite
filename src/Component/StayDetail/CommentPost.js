@@ -31,7 +31,7 @@ class CommentPost extends Component {
               <div className="panel">
                 <div className="panel-body">
                   <div className="media-block">
-                    <a className="media-left" href="//#"><img src="avatar.png" alt="Avatar" class="avatar" src="https://www.kindpng.com/picc/m/78-786207_user-avatar-png-user-avatar-icon-png-transparent.png" /></a>
+                    <a className="media-left" href="//#"><img alt="Avatar" class="avatar" src="https://www.kindpng.com/picc/m/78-786207_user-avatar-png-user-avatar-icon-png-transparent.png" /></a>
                     <div className="media-body">
                       <div className="mar-btm">
                         <a href="//#" className="btn-link text-semibold media-heading box-inline">Takudo.</a>
@@ -44,7 +44,7 @@ class CommentPost extends Component {
                           <a className="btn btn-sm btn-default btn-hover-danger" href="/#"><i className="fa fa-thumbs-down" /></a>
                         </div>
                         <a className="btn btn-sm btn-default btn-hover-primary" href="/#">Comment</a>
-                        {<a className="btn btn-sm" onClick={() => this.onChange()}>{this.state.isOpen?'collapse':'append'}</a>}
+                        {<a href="/#" className="btn btn-sm" onClick={() => this.onChange()}>{this.state.isOpen?'collapse':'append'}</a>}
                       </div>
                       {/* Comments */}
                       <div>

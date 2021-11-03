@@ -5,10 +5,13 @@ class RecommendSlide extends Component {
     render() {
         return (
             <div className="recommend-list">
-                <RmdCard name={"dsdasd sadsadasd"}/>
-                <RmdCard name={"Van Lang"}/>
-                <RmdCard name={"Nguyen Xuan Trong"}/>
-                <RmdCard name={"dsdasd sadsadasd"}/>
+                {
+                    this.props.otherStays
+                    .slice(1,5)
+                    .map((value, index) => {
+                       return <RmdCard stay={value}/>
+                    })
+                }
             
             </div>
         );

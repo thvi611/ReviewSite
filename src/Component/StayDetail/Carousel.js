@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Carousel extends Component {
     render() {
         return (
-            <div className="mt-5">
+            <div className="carousel-side">
                 <div id="demo" className="carousel slide " data-ride="carousel">
                     {/* Indicators */}
                     <ul className="carousel-indicators">

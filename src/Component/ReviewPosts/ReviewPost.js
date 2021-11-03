@@ -3,7 +3,6 @@ import CardRightItem from './CardRightItem.js'
 import CardLeftItem from './CardLeftItem.js'
 import './reviewPost.css'
 import demoData from "./data.json"
-import Test from './Test'
 
 export default class ReviewPost extends Component {
     constructor(props) {
@@ -25,7 +24,7 @@ export default class ReviewPost extends Component {
                     let date2 = b.date.split('/').reverse().join('');
                     return date1 < date2 ? 1 : date1 > date2 ? -1 : 0;
                 })
-                .slice(0,4)
+                .slice(0,3)
                 .map((value, key) => {
                     return (
                         <CardRightItem key={key} 
@@ -41,7 +40,7 @@ export default class ReviewPost extends Component {
         else{
             return (
                 demoData.sort((a,b) => b.rate - a.rate )
-                .slice(0,4)
+                .slice(0,3)
                 .map((value, key) => {
                     return (
                     <CardRightItem key={key} 

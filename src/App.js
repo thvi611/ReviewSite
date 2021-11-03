@@ -3,7 +3,7 @@ import Signup from './Component/Signup';
 import Nav from './Component/Nav';
 import Login from './Component/Login';
 import Footer from './Component/Footer';
-import ServiceDetail from './Component/ServiceDetail/ServiceDetail'
+import StayDetail from './Component/StayDetail/StayDetail'
 import Home from './Component/TopPage/Home'
 import ReviewPost from './Component/ReviewPosts/ReviewPost'
 import AreaDetail from './Component/AreaDetail/AreaDetail';
@@ -14,8 +14,8 @@ function App() {
       <Nav/>
       {/* <Signup/> */}
       {/* <Login/> */}
-      {/* <ServiceDetail/> */}
-      <ReviewPost/>
+      <StayDetail/>
+      {/* <ReviewPost/> */}
       {/* <AreaDetail/> */}
       <Footer/>
     </div>

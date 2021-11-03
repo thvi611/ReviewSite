@@ -1,0 +1,89 @@
+[
+    {
+        "stayId": "1",
+        "stayName": "Dana Marina Hotel",
+        "reviewsCount": "15",
+        "address":"No. 47, Vo Van Kiet Street, Phuoc My Ward, Son Tra District, Danang City, Da Nang, Vietnam",
+        "open": "08:00 AM",
+        "close": "10:00 PM",
+        "about": "Experience the luxury living space with full facilities, modern equipment at DANA MARINA HOTEL. It locates in a beautiful place that is easy to move to many tourism attractions. With all the luxurious, well-equipped rooms, and a bar next to the panoramic city view swimming pool located on the rooftop swimming pool, Dana Marina Hotel will give you an unforgettable experience.",
+        "rating": "4.6",
+        "price": "5600",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/2b/58/87/khach-s-n-dana-marina.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/7e/61/e9/khach-s-n-dana-marina.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/7e/62/95/khach-s-n-dana-marina.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/ef/12/cc/khach-s-n-dana-marina.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/2b/58/b1/khach-s-n-dana-marina.jpg?w=1200&h=-1&s=1"
+        ]
+    },
+    {
+        "stayId": "2",
+        "stayName": "Minh House",
+        "reviewsCount": "91",
+        "address":"104 To Hien Thanh 16 Can ho, Da Nang,Vietnam",
+        "open": "08:00 AM",
+        "close": "11:00 PM",
+        "about": "Minh House - To Hien Thanh is one kind of ecological apartment which is equipped with the modern and luxury things. Just walking a few steps, you can reach to the legendary My Khe beach. It takes you 4km to the airport, 1km to the center and 500m to the beach. You can enjoy the specialties everywhere. Welcome to Minh House.",
+        "rating": "4.6",
+        "price": "6900",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/fb/7f/b0/minh-house.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/fb/bc/8a/photo0jpg.jpg?w=1100&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/f9/17/53/minh-house.jpg?w=1100&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/f9/16/eb/minh-house.jpg?w=1100&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/f6/e1/98/minh-house.jpg?w=1100&h=-1&s=1"
+        ]
+    },
+    {
+        "stayId": "3",
+        "stayName": "Furama Villas Danang",
+        "reviewsCount": "132",
+        "address":"107 Vo Nguyen Giap Street, Da Nang, Vietnam",
+        "open": "08:00 AM",
+        "close": "11:00 PM",
+        "about": "The Furama Villas is a beautiful complex of two to four bedroom villas of Furama Resort Danang with private pools, fully equipped kitchen and luxurious beach access or in the plush gardens. The red-tiled roofs give the villas a distinctive Asian character influenced by the architectures of Champa, the royal temples and palace, while the lavish wood and marble interiors and state-of-the-art facilities help the guests enjoy the villas. Just 5-minute drive to Marble Mountain and a 20-minute drive to the UNESCO Heritage Site of Hoi An, Danang International Airport is a 15-minute drive away, you are able to enjoy many of the available services at Furama Resort Danang which includes two outdoor swimming pools, bars and lounges which open until 2.00am, luxurious restaurants offering Asian, Italian and Western cuisines, experienced and professional staff, a kids club with fun activities for children, a gym, spa facilities, billiards and tennis. We are sure that you and your friends or family will have a relaxing time at Furama Villas and Resort Danang!",
+        "rating": "4.8",
+        "price": "8900",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/8c/1f/7d/photo7jpg.jpg?w=1100&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/8c/1f/7c/photo6jpg.jpg?w=1100&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/8c/1f/7b/photo5jpg.jpg?w=1100&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/8c/1f/7a/photo4jpg.jpg?w=1100&h=-1&s=1"
+        ]
+    },
+    {
+        "stayId": "4",
+        "stayName": "Daisy Boutique Hotel",
+        "reviewsCount": "304",
+        "address":"67 Che Lan Vien, Da Nang, Vietnam",
+        "open": "08:00 AM",
+        "close": "11:00 PM",
+        "about": "The Furama Villas is a beautiful complex of two to four bedroom villas of Furama Resort Danang with private pools, fully equipped kitchen and luxurious beach access or in the plush gardens. The red-tiled roofs give the villas a distinctive Asian character influenced by the architectures of Champa, the royal temples and palace, while the lavish wood and marble interiors and state-of-the-art facilities help the guests enjoy the villas. Just 5-minute drive to Marble Mountain and a 20-minute drive to the UNESCO Heritage Site of Hoi An, Danang International Airport is a 15-minute drive away, you are able to enjoy many of the available services at Furama Resort Danang which includes two outdoor swimming pools, bars and lounges which open until 2.00am, luxurious restaurants offering Asian, Italian and Western cuisines, experienced and professional staff, a kids club with fun activities for children, a gym, spa facilities, billiards and tennis. We are sure that you and your friends or family will have a relaxing time at Furama Villas and Resort Danang!",
+        "rating": "4.2",
+        "price": "7800",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/31/c5/79/photo2jpg.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/30/2e/a1/our-guest-was-immersed.jpg?w=1100&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/30/2e/99/deluxe-double-poolside.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/30/2e/7e/superior-studio-with.jpg?w=1200&h=-1&s=1"
+        ]
+    },
+    {
+        "stayId": "5",
+        "stayName": "My An Dong Hotel",
+        "reviewsCount": "66",
+        "address":"53 Duong Tu Quan street, Da Nang, Vietnam",
+        "open": "08:00 AM",
+        "close": "11:00 PM",
+        "about": "If you’re looking for a charming small hotel in Da Nang, look no further than My An Dong Hotel.Nearby landmarks such as DHC Marina (1.5 mi) and Da Nang Catheral (2.0 mi) make My An Dong Hotel a great place to stay when visiting Da Nang.The rooms offer air conditioning, a refrigerator, and a sofa, and getting online is possible, as free wifi is available, allowing you to rest and refresh with ease.",
+        "rating": "3.8",
+        "price": "4600",
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/1e/37/e1/khong-gian-cay-xanh-va.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/1e/47/98/my-an-dong-hotel.jpg?w=1200&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/1e/46/61/trang-tri-qu-y-l-tan.jpg?w=1100&h=-1&s=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/1e/44/d7/my-an-dong-hotel.jpg?w=1200&h=-1&s=1"
+        ]
+    }
+]

@@ -44,7 +44,7 @@ class CommentPost extends Component {
                           <a className="btn btn-sm btn-default btn-hover-danger" href="/#"><i className="fa fa-thumbs-down" /></a>
                         </div>
                         <a className="btn btn-sm btn-default btn-hover-primary" href="/#">Comment</a>
-                        {<a href="/#" className="btn btn-sm" onClick={() => this.onChange()}>{this.state.isOpen?'collapse':'append'}</a>}
+                        {<p style={{marginTop: '16px'}} className="btn btn-sm" onClick={() => this.onChange()}>{this.state.isOpen?'collapse':'append'}</p>}
                       </div>
                       {/* Comments */}
                       <div>

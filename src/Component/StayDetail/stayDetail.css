@@ -391,4 +391,7 @@
     font-weight: 500;
     font-style: italic;
 }
+.stay .carousel-side .carousel-item img{
+    min-width: 620px;
+}
   

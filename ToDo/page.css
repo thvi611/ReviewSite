@@ -1,0 +1,17 @@
+.checked {
+    color: orange;
+    
+  }
+  .hehe{
+      text-align: center;
+  }
+  .frame1{
+      border-style: solid;
+      margin-top: 20px;
+      background-color: #b5ddd1;
+  }
+  .frame{
+    border-style: solid;
+    margin-top: 20px;
+    background-color: #97f2f3;
+}

@@ -16,19 +16,18 @@ export default class AreaDetail extends Component {
                                         <h2>{data[0].areaName.toUpperCase()}</h2>
                                     </div>
                                     <div className="all-post">
-                                        <button type="button" className="btn btn-outline-primary button">すべてのレビュー</button>
+                                        <button type="button" className="btn btn-outline-primary button">All reviews</button>
                                     </div>
 
                                     <div className="combo">
                                         <div className="dropdown">
                                             <button type="button" className="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown">
-                                            サービス
+                                            Services
                                             </button>
                                             <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#">飲食</a>
-                                            <a className="dropdown-item " href="#">居住地</a>
-                                            <a className="dropdown-item " href="#">やる事</a>
-                                            <a className="dropdown-item " href="#">もっと見る</a>
+                                            <a className="dropdown-item" href="#">Food and Drink</a>
+                                            <a className="dropdown-item " href="#">Stay</a>
+                                            <a className="dropdown-item " href="#">Things to do</a>
                                             </div>
                                         </div>
                                     </div>  
@@ -50,14 +49,14 @@ export default class AreaDetail extends Component {
                         <div className="col-2 mt-5">
                             <div className="services-info">
                                 <div className="title">
-                                    <h4>やる事</h4>
+                                    <h4>Things to do</h4>
                                 </div>
                                 
                                 <p className="service-desc">
                                     ăn chơi bay lag các thứ 
                                 </p>
                                 <div className="all-btn">
-                                    <button type="button" className="btn btn-outline-primary button">全て</button>
+                                    <button type="button" className="btn btn-outline-primary button">All</button>
                                 </div>
                             </div>
                         </div>
@@ -70,14 +69,14 @@ export default class AreaDetail extends Component {
                         <div className="col-2 mt-5">
                             <div className="services-info">
                                 <div className="title">
-                                    <h4>居住地</h4>
+                                    <h4>Stay</h4>
                                 </div>
                                 
                                 <p className="service-desc">
                                     nhà hàng khách sạn vip pro
                                 </p>
                                 <div className="all-btn">
-                                    <button type="button" className="btn btn-outline-primary button">全て</button>
+                                    <button type="button" className="btn btn-outline-primary button">All</button>
                                 </div>
                             </div>
                         </div>
@@ -90,14 +89,14 @@ export default class AreaDetail extends Component {
                         <div className="col-2 mt-5">
                             <div className="services-info">
                                 <div className="title">
-                                    <h4>飲食</h4>
+                                    <h4>Food and Drink</h4>
                                 </div>
                                 
                                 <p className="service-desc">
                                     ăn uống nhậu nhẹt các thứ 
                                 </p>
                                 <div className="all-btn">
-                                    <button type="button" className="btn btn-outline-primary button">全て</button>
+                                    <button type="button" className="btn btn-outline-primary button">All</button>
                                 </div>
                             </div>
                         </div>

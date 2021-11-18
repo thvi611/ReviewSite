@@ -7,6 +7,7 @@ import StayDetail from './Component/StayDetail/StayDetail'
 import Home from './Component/TopPage/Home'
 import ReviewPost from './Component/ReviewPosts/ReviewPost'
 import AreaDetail from './Component/AreaDetail/AreaDetail';
+import EatDetail from './Component/EatDetail/EatDetail';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Nav/>
       {/* <Signup/> */}
       {/* <Login/> */}
-      <StayDetail/>
+      <EatDetail/>
       {/* <ReviewPost/> */}
       {/* <AreaDetail/> */}
       <Footer/>

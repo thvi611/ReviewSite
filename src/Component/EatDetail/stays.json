@@ -1,0 +1,99 @@
+[
+    {
+        "stayId": "1",
+        "stayName": "Banh xeo Ba Duong",
+        "reviewsCount": "15",
+        "address":"K280/23 Hoang Dieu, Da Nang, Vietnam",
+        "open": "08:00 AM",
+        "close": "10:00 PM",
+        "CUISINES": "Asian, Vietnamese",
+        "MEALS": "Lunch, Dinner, Brunch",
+        "FEATURES": "Takeout, Seating, Serves Alcohol, Table Service",
+        "rating": "4.8",
+        "price": "5600",
+        "images": [
+            "https://media-cdn.tripadvisor.com/media/photo-s/1a/48/88/72/photo1jpg.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-s/1c/69/8d/23/img-20201210-210024-largejpg.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-s/06/73/6b/b9/banh-xeo-ba-duong.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-s/1c/69/8d/25/img-20201210-205955-largejpg.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-s/1c/69/8d/24/img-20201210-210006-largejpg.jpg"
+        ]
+    },
+    {
+        "stayId": "2",
+        "stayName": "Com Ga A.Hai",
+        "reviewsCount": "91",
+        "address":"100 Thai Phien St., Hai Chau Dist., Da Nang, Vietnam",
+        "open": "08:00 AM",
+        "close": "12:00 AM",
+        "CUISINES": "Asian, Vietnamese",
+        "MEALS": "Lunch, Dinner, Brunch",
+        "FEATURES": "Takeout, Outdoor Seating, Seating, Serves Alcohol, Table Service",
+        "rating": "4.6",
+        "price": "6900",
+        "images": [
+            "https://media-cdn.tripadvisor.com/media/photo-s/10/98/c0/26/photo2jpg.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-p/08/64/a9/d4/caption.jpg",
+            "https://dacsandathanh.com/wp-content/uploads/2018/05/comgaanhhai-min-1.jpg",
+            "https://images.foody.vn/res/g1/6682/prof/s576x330/foody-mobile-foody-a-hai-com-ga-x-869-635948407399671556.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStL6y_z9F4AxdGOvXr09ChRejNrgSQpzFlhZ2yFAajzPFtA9TDAuSntqjFmLFsp4cyvYs&usqp=CAU"
+        ]
+    },
+    {
+        "stayId": "3",
+        "stayName": "La Maison 1888",
+        "reviewsCount": "132",
+        "address":"InterContinental Danang Sun Peninsula Resort, Bai Bac, Son Tra Peninsula Bai Bac, Son Tra Peninsula, Da Nang, Vietnam",
+        "open": "08:00 AM",
+        "close": "11:00 PM",
+        "CUISINES": "French, European, Vegetarian Friendly, Vegan Options, Gluten Free Options",
+        "MEALS": "Lunch, Dinner, Brunch",
+        "FEATURES": "Reservations, Private Dining, Seating, Parking Available, Validated Parking, Valet Parking, Serves Alcohol, Full Bar, Free Wifi, Accepts Credit Cards, Table Service, Wine and Beer, Non-smoking restaurants",
+        "rating": "2.8",
+        "price": "8900",
+        "images": [
+            "https://media-cdn.tripadvisor.com/media/photo-s/0d/04/3b/49/la-maison-1888-terrace.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-s/03/97/3a/30/la-maison-1888.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-f/0d/04/3b/5b/la-maison-1888-kitchen.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-f/03/97/3a/45/la-maison-1888.jpg"
+        ]
+    },
+    {
+        "stayId": "4",
+        "stayName": "Truc Lam Vien Restaurants & Coffee",
+        "reviewsCount": "304",
+        "address":"08-10 Tran Quy Cap, Da Nang, Vietnam",
+        "open": "08:00 AM",
+        "close": "11:00 PM",
+        "CUISINES": "Asian, Vietnamese, Vegetarian Friendly, Vegan Options",
+        "MEALS": "Lunch, Breakfast, Dinner, Brunch, Drinks",
+        "FEATURES": "Reservations, Outdoor Seating, Buffet, Seating, Free off-street parking, Accepts American Express, Accepts Mastercard, Accepts Visa, Free Wifi, Accepts Credit Cards, Table Service, Parking Available, Street Parking, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Full Bar, Wine and Beer, Digital Payments",
+        "rating": "3.2",
+        "price": "7800",
+        "images": [
+            "https://media-cdn.tripadvisor.com/media/photo-s/1a/b0/77/a9/khong-gian-t-t-t-i-nha.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-f/14/f0/e6/07/g-i-tom-th-t.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-s/1a/b0/77/64/khong-gian-t-t-t-i-nha.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-f/15/26/3c/88/buffet.jpg"
+        ]
+    },
+    {
+        "stayId": "5",
+        "stayName": "Mi Quang 1A",
+        "reviewsCount": "66",
+        "address":"1A Hai Phong Hai Chau Dist, Da Nang, Vietnam",
+        "open": "08:00 AM",
+        "close": "11:00 PM",
+        "CUISINES": "Asian, Vietnamese",
+        "MEALS": "Lunch, Dinner, Brunch",
+        "FEATURES": "Takeout, Seating, Serves Alcohol, Table Service",
+        "rating": "3.8",
+        "price": "4600",
+        "images": [
+            "https://media-cdn.tripadvisor.com/media/photo-s/12/34/24/b7/caption.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-s/08/48/37/52/mi-quang-1a.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-f/09/67/06/b6/mi-quang-1a.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-f/10/5d/c9/cc/dsc-0102-largejpg.jpg"
+        ]
+    }
+]
